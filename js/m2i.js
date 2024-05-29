@@ -204,4 +204,11 @@ console.log(dateInfo); */
 
 const dateInfo2 = new Date();
 //console.log(dateInfo2);
-console.log(dateInfo2.toLocaleDateString())
+//console.log(dateInfo2.toLocaleDateString())
+
+let user = {
+    name : "John",
+    age: 38,
+    "like birds" : true
+}
+console.log(user["like birds"])
