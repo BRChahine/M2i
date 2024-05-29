@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/form2.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form-contact" method="post" action=""enctype="multipart/form-data">
+    <h1>Registration</h1>
+    <legend>Personnal Details</legend>
+    <first>
+        <div>
+            <label for="nom">Full Name</label>
+            <input type="text" name="nom" id="nom" placeholder="Enter your name" required>
+        </div>
+
+        <div>
+            <label for="date">Date of Birth</label>
+            <input type="date" name="date" id="date" placeholder="Enter birth date" required>
+        </div>
+
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        </div>
+    </first>
+
+    <second>
+    <div>
+        <label for="number">Mobile number</label>
+        <input type="number" name="number" id="number" placeholder="Enter your mobile number" required min="0">
+    </div>
+
+    <div>
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+            <option value="">Select your gender</option>
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+        </select>  
+    </div>
+
+    <div>
+        <label for="occupation">Occupation</label>
+        <input type="text" name="occupation" id="occupation" placeholder="Enter occupation" required>
+    </div>
+    </second>
+
+    <legend>Identity Details</legend>
+
+    <third>
+    <div>
+        <label for="idtype">ID Type</label>
+        <input type="text" name="idtype" id="idtype" placeholder="Enter ID Type" required>
+    </div>
+
+    <div>
+        <label for="idnumber">ID Number</label>
+        <input type="number" name="id number" id="idnumber" placeholder="Enter ID Number" required min="0">
+    </div>
+
+    <div>
+        <label for="authority">Issue Authority</label>
+        <input type="text" name="authority" id="authority" placeholder="Enter Issue departement" required>
+    </div>
+    </third>
+
+    <fourth>
+    <div>
+        <label for="issuedate">Issue Date</label>
+        <input type="date" name="issuedate" id="issuedate" placeholder="Enter ID Issue date" required>
+    </div>
+
+    <div>
+        <label for="state">Issue State</label>
+        <input type="text" name="state" id="state" placeholder="Enter ID issue state" required>
+    </div>
+
+    <div>
+        <label for="expdate">Expiry Date</label>
+        <input type="date" name="expdate" id="expdate" placeholder="Enter ID expiry date" required>
+    </div>
+    </fourth>
+
+    <div>
+        <input type="submit" name="submit" id="submit" value="Next →">
+    </div>
+    </form>    
+  
+</body>
+</html>

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: steelblue;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: white;
+
+}
+
+div{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+first,second,third,fourth,#position,#languages{
+    display: flex;
+    justify-content:space-around;
+}
+#confirm,#password{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+input[type=reset],input[type=submit]{
+    width: 200px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-size: 1.3rem;
+    background-color: darkorange;
+    
+}

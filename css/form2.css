@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: blue;
+}
+
+#form-contact{
+background-color: white;
+width: 1280px;
+height: 520px;
+margin: 100px auto;
+padding: 10px;
+border-radius: 5px;
+
+}
+legend{
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+first{
+    display: flex;
+    justify-content: space-between;
+}
+second{
+    display: flex;
+    justify-content: space-between;
+}
+third{
+    display: flex;
+    justify-content: space-between;
+}
+fourth{
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    padding-left: 10px;
+    width: 400px;
+    height:40px ;
+}
+input[type=submit]{
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-size: 1.3rem;
+}
+input[type=submit]{
+    background-color: blue;
+
+}
+
+#gender{
+    padding-left: 10px;
+    width: 400px;
+    height:40px ;
+}

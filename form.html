@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link href="css/form.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <form id="form-contact" method="post" action=""enctype="multipart/form-data">
+        
+        <fieldset>
+            <legend>Formulaire</legend>
+        <div>
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" id="nom" placeholder="Entrez votre nom" required>
+        </div>
+
+        <div>
+            <label for="prenom">Prénom</label>
+            <input type="text" name="prenom" id="prenom" placeholder="Entrez votre prénom" required>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label for="password">Votre mot de passe:</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+
+        <div>
+            <label for="birthday">Votre date de naissance:</label>
+            <input type="date" name="birthday" id="birthday">
+        </div>
+
+        <div>
+            <label for="time">Heure de RDV:</label>
+            <input type="time" name="time" id="time">
+        </div>
+
+        <div>
+            <label for="number">Nombres d'enfants:</label>
+            <input type="number" name="number" id="number">
+        </div>
+
+        <div id="diplomes">
+            <p>Vos diplomes:</p>
+            <label for="bac">BAC</label>
+            <input type="checkbox" name="bac" id="bac">
+            <label for="license">LICENCE</label>
+            <input type="checkbox" name="license" id="license">
+            <label for="master">MASTER</label>
+            <input type="checkbox" name="master" id="master">
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend>Infos supplémentaires</legend>
+        <div id="genre">
+            <p>Genre:</p>
+            <label for="homme">Homme</label>
+            <input type="radio" name="genre" id="homme">
+            <label for="femme">Femme:</label>
+            <input type="radio" name="genre" id="femme">
+        </div>     
+
+        <div>
+            <label for="color">Votre couleur préférée:</label>
+            <input type="color" name="color" id="color">
+        </div>
+            
+        <div>
+            <label for="tel">Tel:</label>
+            <input type="tel" name="tel" id="tel">
+        </div>
+
+        <div>
+            <label for="distance">Nombres de kilomètres:</label>
+            <input type="range" name="range" id="range" min="0" max="10">
+        </div>
+
+        <div>
+            <label for="site">Votre site web</label>
+            <input type="url" name="site" id="site">
+        </div>
+
+        <div>
+            <label for="cv">Votre CV</label>
+            <input type="file" name="cv" id="cv">
+        </div>
+
+        <div>
+            <label for="cars">Votre véhicule</label>
+            <select name="cars" id="site">
+                <option value="">Choisissez votre marque</option>
+                <option value="pg">Peugot</option>
+                <option value="cit">Citroën</option>
+                <option value="merco">Mercedes</option>
+            </select>   
+        </div>
+
+        <div>
+            <input type="search" name="search" id="search" placeholder="Votre recherche">
+        </div>
+
+        <div>
+            <input type="hidden" name="hidden" id="hidden">
+        </div>
+
+        </fieldset>
+        <div>
+            <input type="reset" name="reset" id="reset" value="Annuler">
+            <input type="submit" name="submit" id="submit" value="Envoyer">
+        </div>
+      
+
+    </form>
+    
+</body>
+</html>

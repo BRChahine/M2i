@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/from3.css" rel="stylesheet" type="text/css">
+    <title>Formulaire 3</title>
+</head>
+<body>
+    <form id="form-contact" method="post" action=""enctype="multipart/form-data">
+        <h1>Application Form</h1>
+       
+       <first>
+            <div>
+                <label for="prenom">First Name:</label>
+                <input type="text" name="prenom" id="prenom" required>
+            </div>
+
+            <div>
+                <label for="nom">Last Name</label>
+                <input type="text" name="nom" id="nom"  required>
+            </div>
+        </first>
+
+        <second>
+            <div>
+                <label for="birthday">Date of Birth:</label>
+                <input type="date" name="birthday" id="birthday">
+            </div>
+
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age">
+            </div>
+        </second>
+
+        <third>
+            <div>
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                    <option value="m">Male</option>
+                    <option value="f">Female</option>
+                </select>  
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter email address">
+            </div>
+        </third>
+       
+        <div id="position">
+            <p>Positions Available:</p>
+            <label for="junior">Junior Developer</label>
+            <input type="radio" name="positions" id="junior">
+            <label for="mid">Mid-level Developer</label>
+            <input type="radio" name="positions" id="mid">
+            <label for="senior">Senior Developer</label>
+            <input type="radio" name="positions" id="senior">
+        </div> 
+        
+
+        <div id="languages">
+            <p>Programming Languages:</p>
+            <label for="java">Java</label>
+            <input type="checkbox" name="java" id="java">
+            <label for="javascript">Javascript</label>
+            <input type="checkbox" name="javascript" id="javascript">
+            <label for="python">Python</label>
+            <input type="checkbox" name="python" id="python">
+        </div>    
+    
+        <fourth>  
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+
+            <div>
+                <label for="confirm">Confirm Password:</label>
+                <input type="password" name="confirm" id="confirm" required>
+            </div>
+        
+
+        </fourth>
+
+        <div>
+            <input type="submit" name="submit" id="submit" value="Submit">
+            <input type="reset" name="reset" id="reset" value="Reset">
+        </div>
+
+    </form>
+</body>
+</html>
