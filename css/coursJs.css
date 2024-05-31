@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px 50px;
+}
+ul{
+    margin: 50px 20px;
+}
+ul li {
+    font-size: 20px;
+    list-style: none;
+    padding: 5px 0;
+}
+.paragraphe{
+    font-size: 18px;
+}
+.paragraphe span{
+    color: red;
+    font-weight: bold;
+}
+h4{
+    margin: 30px 0;
+    visibility: hidden;
+}
+form{
+    margin: 20px;
+    max-width: 500px;
+}
+form p{
+    font-size: 20px;
+    font-style: italic;
+}
+form div{
+    margin: 30px 0;
+}
+label[for=single]{
+    margin-left: 10px;
+}
+form div input:not(input[type=checkbox]){
+    width: 100%;
+    height: 30px;
+    display: block;
+    padding-left: 10px;
+}
+form div input[type=submit]{
+    width: 200px!important;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    height: 40px!important;
+    margin-top: 20px;
+}
+img{
+    width: 500px;
+    margin: 30px 0;
+}
+#box{
+    width: 500px;
+    height: 250px;
+    background-color: red;
+    margin: 50px;
+}
+
+article{
+    margin: 50px 0;
+    width: 50%;
+    text-align: justify;
+    font-size: 18px;
+
+}
